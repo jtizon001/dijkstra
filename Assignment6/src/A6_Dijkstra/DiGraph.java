@@ -223,37 +223,5 @@ public class DiGraph implements DiGraph_Interface {
 	}
 
 }
-////HashMap<String, Long> diVertMap= new HashMap<String,Long>();
-//PriorityQueue<Vertex> pQ=new PriorityQueue<Vertex>();
-////pQ.add(diVert);
-//for(Vertex verts:vertList){
-//	verts.dist=Long.MAX_VALUE;
-//}
-//Vertex diVert = vertMap1.get(label);
-//diVert.dist=0;
-//pQ.add(diVert);
-//
-//while(!pQ.isEmpty()){
-//	Vertex delVert = pQ.remove();
-//	if(!delVert.visited)
-//		delVert.visited=true;
-//	else
-//		//continue;
-//	for(Edge eddy: delVert.destEdge){
-//		if(eddy.destVert.dist>delVert.dist+eddy.weight){
-//			eddy.destVert.dist=delVert.dist+eddy.weight;
-//			pQ.add(eddy.destVert);
-//		}
-//	}
-//		
-//}
-//ArrayList<ShortestPathInfo> FML= new ArrayList<ShortestPathInfo>();
-//for(Vertex verts:vertList){
-//	if(!verts.visited)
-//		verts.dist=-1;
-//	ShortestPathInfo FML1= new ShortestPathInfo(verts.data, verts.dist);
-//	FML.add(FML1);
-//}
-//return FML.toArray(new ShortestPathInfo[0]);
-////return null;
+
 
